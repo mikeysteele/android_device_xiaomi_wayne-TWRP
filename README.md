@@ -1,31 +1,31 @@
-# android_device_xiaomi_whyred
-For building TWRP for Xiaomi Redmi Note 5 Pro ONLY
+# android_device_xiaomi_wayne
+For building TWRP for Xiaomi Mi 6X ONLY
 
 To compile
 
-. build/envsetup.sh && lunch omni_whyred-eng && make -j8 recoveryimage
+export ALLOW_MISSING_DEPENDENCIES=true && . build/envsetup.sh && lunch omni_wayne-eng && make -j8 recoveryimage
 
-The Redmi Note 5 Pro (codenamed _"whyred"_) are high-end mid-range smartphones from Xiaomi.
+The Xiaomi Mi 6X (codenamed _"wayne"_) is a high-end mid-range smartphones from Xiaomi.
 
-Xiaomi Redmi Note 5 Pro was announced and released in February 2018.
+Xiaomi Mi 6X was announced and released in April 2018.
 
 ## Device specifications
 
-| Device       | Xiaomi Redmi Note 5 Pro                         |
+| Device       | Xiaomi Mi 6X                            |
 | -----------: | :---------------------------------------------- |
-| SoC          | Qualcomm SDM660 Snapdragon 636                  |
-| CPU          | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
-| GPU          | Adreno 509                                      |
+| SoC          | Qualcomm SDM660                                 |
+| CPU          | 8x Qualcomm® Kryo™ 260 up to 2.2GHz             |
+| GPU          | Adreno 512                                      |
 | Memory       | 4GB / 6GM RAM (LPDDR4X)                         |
-| Shipped Android version | 7.1.1                                |
+| Shipped Android version | 8.1.0                                |
 | Storage      | 64GB eMMC 5.1 flash storage                     |
-| Battery      | Non-removable Li-Po 4000 mAh                    |
-| Dimensions   | 158.6 x 75.4 x 8.05 mm                          |
+| Battery      | Non-removable Li-Po 3010 mAh                    |
+| Dimensions   | 158.7 x 75.4 x 7.3 mm                           |
 | Display      | 2160 x 1080 (18:9), 5.99 inch                   |
-| Rear camera 1 | 12MP, 1.25-micron pixels, f/2.2 Dual LED flash |
-| Rear camera 2 | 5MP, 1.12-micron pixels, f/2.0                |
-| Front camera | 20MP, 1-micron pixels, f/2.2 1080p 30 fps video, Selfie-light|
+| Rear camera 1 | 12MP                                           |
+| Rear camera 2 | 20MP                                           |
+| Front camera | 20MP                                            |
 
 ## Device picture
 
-![Xiaomi Redmi Note 5 Pro](https://www1-lw.xda-cdn.com/files/2018/02/Xiaomi-Redmi-Note-5-and-Redmi-Note-5-Pro-Forums-now-Open.png)
+![Xiaomi Mi 6X](https://i1.mifile.cn/f/i/18/mi6x/gallery_header.jpg)
